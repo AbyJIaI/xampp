@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 public class Main {
 
@@ -25,5 +26,10 @@ public class Main {
         System.out.println("Hello world ");
         int a = 5;
         a += 5;
+
+        for (int i = 0; i < a; i++) {
+            int h = i;
+            System.out.println(Math.pow(h,2));
+        }
     }
 }
