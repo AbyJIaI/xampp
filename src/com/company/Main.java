@@ -21,5 +21,9 @@ public class Main {
         for (int i = 0; i < users.size(); i++) {
             System.out.println(users.get(i));
         }
+
+        System.out.println("Hello world ");
+        int a = 5;
+        a += 5;
     }
 }
